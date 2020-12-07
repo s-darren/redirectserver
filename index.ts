@@ -59,7 +59,7 @@ app.use(async (ctx, next) => {
       option: {
         method: ctx.request.body.method,
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': ctx.header['content-type']
         }
       },
       body: JSON.stringify(ctx.request.body.body)
