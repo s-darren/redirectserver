@@ -1,0 +1,26 @@
+{
+  "name": "redirectserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "server",
+    "for",
+    "redirect"
+  ],
+  "author": "s-darren",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0"
+  }
+}
