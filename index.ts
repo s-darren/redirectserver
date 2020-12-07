@@ -73,4 +73,6 @@ app.use(async (ctx, next) => {
   // http.request()
 });
 console.log('start redict')
-http.createServer(app.callback()).listen(3001);
+export function redirectServer(port:number) {
+  http.createServer(app.callback()).listen(port);
+}
